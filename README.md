@@ -5,7 +5,7 @@ Dự án này tập trung vào xây dựng một kho dữ liệu (Data Warehouse
 
 ## Data decription
 - ERD Datawarehouse
-![image](https://github.com/elsaconbo/Project-DW-BikeStores/assets/146601517/69c4e9b6-4388-44a6-a0f7-1680f8a96faa)
+![image](https://github.com/elsaconbo/Project-DW-BikeStores/assets/146601517/faef87ad-63dc-45af-9f45-85dc4587dfa6)
 
 ## Dimension
 
