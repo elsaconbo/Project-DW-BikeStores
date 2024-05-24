@@ -1,4 +1,4 @@
-# Inventory Analytics Project
+# Project-DW-BikeStores
 
 ## Mô tả
 Dự án này tập trung vào xây dựng một kho dữ liệu (Data Warehouse) để phân tích dữ liệu về inventory. Sử dụng SQL Server Integration Services (SSIS) để xử lý dữ liệu từ tập dữ liệu gốc, SQL Server Analysis Services (SSAS) để xây dựng các cube phân tích, và Power BI để tạo các báo cáo và trực quan hóa.
