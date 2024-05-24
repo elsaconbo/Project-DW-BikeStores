@@ -1,25 +1,43 @@
-# Project-DW-BikeStores
+# Bike Stores Datawarehouse
 
 ## Mô tả
 Dự án này tập trung vào xây dựng một kho dữ liệu (Data Warehouse) để phân tích dữ liệu về Sales reporting và Inventory. Sử dụng SQL Server Integration Services (SSIS) để xử lý dữ liệu từ tập dữ liệu gốc, SQL Server Analysis Services (SSAS) để xây dựng các cube phân tích, và Power BI để tạo các báo cáo và trực quan hóa.
 
-## Hướng dẫn cài đặt
-### Yêu cầu
-- Visual Studio 2022
-- SQL Server (bản mới nhất được khuyến nghị)
-- Power BI Desktop
+## Data decription
+- ERD Datawarehouse
+![image](https://github.com/elsaconbo/Project-DW-BikeStores/assets/146601517/69c4e9b6-4388-44a6-a0f7-1680f8a96faa)
 
-### Cài đặt
-1. Clone dự án từ repository GitHub.
-2. Mở Visual Studio 2022 và mở solution của dự án.
-3. Thiết lập kết nối với cơ sở dữ liệu SQL Server và tập dữ liệu gốc.
-4. Chạy các gói SSIS để xử lý dữ liệu và tạo các bảng dim và fact.
-5. Xây dựng các cube phân tích trong SSAS.
-6. Sử dụng Power BI để kết nối đến cube SSAS và tạo các báo cáo và trực quan hóa.
+## Dimension
 
-## Hướng dẫn sử dụng
-1. Mở Power BI Desktop.
-2. Kết nối đến cube SSAS đã xây dựng từ dự án.
-3. Tạo các bảng điều khiển, biểu đồ, và báo cáo dựa trên dữ liệu từ cube.
-4. Thực hiện phân tích và tùy chỉnh báo cáo theo nhu cầu của bạn.
+![image](https://github.com/elsaconbo/Project-DW-BikeStores/assets/146601517/aa5fc811-2d2f-41c1-a8e5-562daa72d32e)
 
+# DimDate
+![image](https://github.com/elsaconbo/Project-DW-BikeStores/assets/146601517/d752ae77-4264-4928-89dc-509f6ca23240)
+
+# DimCustomer
+![image](https://github.com/elsaconbo/Project-DW-BikeStores/assets/146601517/ec7ecba6-95ef-4376-9d67-a4ccce9ad27c)
+
+# DimStaff
+![image](https://github.com/elsaconbo/Project-DW-BikeStores/assets/146601517/03c55909-f0c9-44ed-b14f-145ba3f0051a)
+
+# DimStore
+![image](https://github.com/elsaconbo/Project-DW-BikeStores/assets/146601517/30f51ea2-986e-4656-acb8-7af5aad87126)
+
+# DimProduct
+![image](https://github.com/elsaconbo/Project-DW-BikeStores/assets/146601517/ee07b71d-a259-43a4-8d01-d14a05d41f16)
+
+# DimStock
+![image](https://github.com/elsaconbo/Project-DW-BikeStores/assets/146601517/91e175fc-596c-4448-9cb7-394f653544cf)
+
+## Fact:
+![image](https://github.com/elsaconbo/Project-DW-BikeStores/assets/146601517/92304fd4-c549-49b5-a562-1d4cb07b009c)
+
+# Fact Sales:
+![image](https://github.com/elsaconbo/Project-DW-BikeStores/assets/146601517/04a1e5a8-e064-4476-a1f4-66c15961a978)
+
+# Fact Inventory:
+![image](https://github.com/elsaconbo/Project-DW-BikeStores/assets/146601517/c9975ead-5828-4502-a330-af673da48a2c)
+
+# Tạo Cubes (SSAS)
+
+![image](https://github.com/elsaconbo/Project-DW-BikeStores/assets/146601517/4e4a914a-c22a-4bbf-8c48-90113801ba71)
