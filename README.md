@@ -23,9 +23,3 @@ Dự án này tập trung vào xây dựng một kho dữ liệu (Data Warehouse
 3. Tạo các bảng điều khiển, biểu đồ, và báo cáo dựa trên dữ liệu từ cube.
 4. Thực hiện phân tích và tùy chỉnh báo cáo theo nhu cầu của bạn.
 
-## Tài liệu kỹ thuật
-- File SSIS Package Files (.dtsx)
-- File Backup SQL Server
-- File SSAS (Analysis Services)
-- Tệp Excel SSAS (ssas.xlsx)
-- Tệp Power BI (ssas.pbix)
